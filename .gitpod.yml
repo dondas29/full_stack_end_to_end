@@ -8,8 +8,5 @@ tasks:
   - init: npm install && npm run build
     command: export HRM_HOST='gp url 3000' && npm run dev
 
-ports:
-  - port: 3000
-    onOpen: open-browser
 
 
